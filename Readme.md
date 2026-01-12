@@ -51,7 +51,7 @@ The system uses a multi-threaded approach to prevent input lag:
 
 ### 🔧 Key Calibration Variables
 Edit these constants in `server.py` to change the "feel" of the car:
-* `CURSO_FISICO_CELULAR = 45.0`: Max degrees to tilt the phone for full steering lock.
+* `CURSO_FISICO_CELULAR = 90.0`: Max degrees to tilt the phone for full steering lock.
 * `FATOR_EXPONENCIAL = 1.7`: Steering curve. > 1.0 makes the center stable and the edges aggressive.
 * `PESO_SUAVIDADE = 0.5`: The LERP (Linear Interpolation) factor. Lower values increase smoothness; higher values increase raw responsiveness.
 
